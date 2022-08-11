@@ -5,7 +5,7 @@ from celery.schedules import crontab
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'j%4s9n79np!^nrq3&h4=6a8r2c^ex9s)gg3s(zsx((o@qll2yj'
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['abdcoderview.herokuapp.com','coderview.co']
 
 # Celery config
