@@ -99,7 +99,7 @@ CHANNEL_LAYERS = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    'localhost:8080'
+    'localhost:8080','http://coderview.co/'
     # front-end
 ]
 
