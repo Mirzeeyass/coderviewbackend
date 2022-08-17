@@ -103,7 +103,8 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8080',
     'http://172.20.10.2:8080',
     'https://delightful-sable-9506ba.netlify.app',
-    'https://main--golden-zuccutto-d9a03c.netlify.app'
+    'https://main--golden-zuccutto-d9a03c.netlify.app',
+    'https://golden-zuccutto-d9a03c.netlify.app/'
     # front-end
 ]
 
