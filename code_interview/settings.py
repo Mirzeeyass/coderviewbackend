@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'j%4s9n79np!^nrq3&h4=6a8r2c^ex9s)gg3s(zsx((o@qll2yj'
 DEBUG = True
-ALLOWED_HOSTS = ['abdcoderview.herokuapp.com','localhost','coderview.co','delightful-sable-9506ba.netlify.app']
+ALLOWED_HOSTS = ['abdcoderview.herokuapp.com','localhost','coderview.co',]
 
 # Celery config
 
@@ -102,7 +102,8 @@ CORS_ORIGIN_WHITELIST = [
     'coderview.co:80',
     'http://localhost:8080',
     'http://172.20.10.2:8080',
-    'https://delightful-sable-9506ba.netlify.app'
+    'https://delightful-sable-9506ba.netlify.app',
+    'https://main--golden-zuccutto-d9a03c.netlify.app'
     # front-end
 ]
 
