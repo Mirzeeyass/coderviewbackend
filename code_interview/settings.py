@@ -101,7 +101,8 @@ CHANNEL_LAYERS = {
 CORS_ORIGIN_WHITELIST = [
     'coderview.co:80',
     'http://localhost:8080',
-    'http://172.20.10.2:8080'
+    'http://172.20.10.2:8080',
+    'https://delightful-sable-9506ba.netlify.app'
     # front-end
 ]
 
